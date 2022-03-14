@@ -5,10 +5,9 @@
     </PropertyGroup>
     <ItemGroup>
         <Compile Include="Program.fs" />
-        <Content Include="Resources\data.txt" />
-        <Content Include="README.md" />
     </ItemGroup>
     <ItemGroup>
+        <Content Include="README.md" />
         <Content Include="Resources\**\*">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
